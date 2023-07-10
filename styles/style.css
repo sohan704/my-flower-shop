@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Lato;
+}
+
+.header{
+  background: rgba(229, 84, 115, 0.10);
+  display: flex;
+  padding: 50px 160px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.header-photo{
+  width: 410px;
+}
+.header-text{
+  width: 550px;
+}
+
+.header-title{
+  color: #272727;
+  font-size: 26px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  width: 430px;
+}
+
+.header-description{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 13px;
+  font-weight: 400;
+  width: 420px;
+  margin-bottom: 17px;
+}
+
+.button-style{
+  padding: 11px 24px;
+  color: white;
+  background: #E55473;
+  border: none;
+  border-radius: 4px;
+
+}
+
+
+/* featured section */
+
+.featured-section{
+  margin-top: 120px;
+  height: 110vh;
+}
+
+.featured-section-header{
+  color: #272727;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 11px;
+}
+
+.featured-section-description{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.flower-container{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  gap: 8px;
+}
+
+.flower-card{
+  height: 290px;
+  width: 260px;
+  border: 1px solid red;
+  position: relative;
+}
+.flower-icon{
+  position: absolute;
+  width: 170px;
+  margin-top: 56px;
+  margin-left: 30px;
+}
+.flower-background{
+  height: 290px;
+  width: 260px;
+  position: absolute;
+  border-top-left-radius: 46%;
+  border-top-right-radius: 48%;
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-caption{
+
+  color: #272727;
+  text-align: center;
+  font-size: 13px;
+  text-decoration-line: underline;
+}
