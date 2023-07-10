@@ -176,3 +176,43 @@ font-size: 30px;
   width: 200px;
   /* border: 1px solid red; */
 }
+
+.instagram-section{
+  height: 70vh;
+}
+
+.instagram-text{
+  text-align: center;
+}
+
+.instagram-header{
+  color: #272727;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  
+}
+
+.instagram-description{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 20px;
+} 
+
+.instagram-card-container{
+  width: 66%;
+  margin: auto;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.insta-icon{
+  width: 24%;
+}
+
