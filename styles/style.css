@@ -44,7 +44,9 @@ body{
   background: #E55473;
   border: none;
   border-radius: 4px;
-
+}
+.pink-text{
+  color: #E55473;
 }
 
 
@@ -52,7 +54,7 @@ body{
 
 .featured-section{
   margin-top: 120px;
-  height: 110vh;
+  height: 100vh;
 }
 
 .featured-section-header{
@@ -140,4 +142,37 @@ body{
   text-align: center;
   font-size: 13px;
   text-decoration-line: underline;
+}
+
+.hot-deal-section{
+  display: flex;
+  height: 40vh;
+  /* border: 1px solid red; */
+  align-items: center;
+  padding: 90px 280px;
+  gap: 177px;
+  background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-text{
+  text-align: center;
+  /* border: 1px solid red; */
+}
+.hot-deal-header{
+  color: #272727;
+font-size: 30px;
+ margin-bottom: 19px;
+}
+
+.hot-deal-description{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 11px;
+  margin-bottom: 24px;
+
+  
+}
+
+.hot-deal-photo{
+  width: 200px;
+  /* border: 1px solid red; */
 }
