@@ -54,7 +54,7 @@ body{
 
 .featured-section{
   margin-top: 120px;
-  height: 100vh;
+  height: 90vh;
 }
 
 .featured-section-header{
@@ -144,6 +144,82 @@ body{
   text-decoration-line: underline;
 }
 
+.testimonial-section{
+  height: 70vh;
+  margin-bottom: 60px;
+  /* border: 1px solid red; */
+  
+}
+.testimonial-header{
+  color: #272727;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.testimonial-description{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 50px;
+} 
+
+.testimonial-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+}
+
+.testimony{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 12px;
+  margin-bottom: 27px;
+  height: 110px;
+  font-style: italic;
+}
+
+.person-image{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+
+.person-icon{
+  width: 60px;
+  border-radius: 50%;
+  
+  
+}
+
+.person{
+  width: 220px;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 11px 11px 23px #E55473;
+}
+
+.person-name{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
 .hot-deal-section{
   display: flex;
   height: 40vh;
@@ -152,6 +228,7 @@ body{
   padding: 90px 280px;
   gap: 177px;
   background: rgba(229, 84, 115, 0.05);
+
 }
 .hot-deal-text{
   text-align: center;
