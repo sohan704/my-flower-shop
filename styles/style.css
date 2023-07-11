@@ -1,3 +1,4 @@
+/* common shared style */
 *{
   margin: 0;
   padding: 0;
@@ -6,6 +7,19 @@
 body{
   font-family: Lato;
 }
+
+.button-style{
+  padding: 11px 24px;
+  color: white;
+  background: #E55473;
+  border: none;
+  border-radius: 4px;
+}
+.pink-text{
+  color: #E55473;
+}
+
+/* header section design */
 
 .header{
   background: rgba(229, 84, 115, 0.10);
@@ -38,19 +52,10 @@ body{
   margin-bottom: 17px;
 }
 
-.button-style{
-  padding: 11px 24px;
-  color: white;
-  background: #E55473;
-  border: none;
-  border-radius: 4px;
-}
-.pink-text{
-  color: #E55473;
-}
 
 
-/* featured section */
+
+/* featured section design */
 
 .featured-section{
   margin-top: 120px;
@@ -144,6 +149,8 @@ body{
   text-decoration-line: underline;
 }
 
+/* testimony section */
+
 .testimonial-section{
   height: 70vh;
   margin-bottom: 60px;
@@ -220,6 +227,8 @@ body{
   margin-bottom: 12px;
 }
 
+/* "Hot deal" section design */
+
 .hot-deal-section{
   display: flex;
   height: 40vh;
@@ -253,6 +262,8 @@ font-size: 30px;
   width: 200px;
   /* border: 1px solid red; */
 }
+
+/* Instagram Section Design */
 
 .instagram-section{
   height: 70vh;
@@ -292,6 +303,8 @@ font-size: 30px;
 .insta-icon{
   width: 24%;
 }
+
+/* latest deal section design */
 
 .latest-deal-section{
   width: 66%;
@@ -333,6 +346,9 @@ font-size: 30px;
    border: none;
    border-radius: 3px;
 }
+
+/* Footer section design */
+
 .footer{
   height: 385px;
   background: #111010;
@@ -362,5 +378,4 @@ margin-bottom: 15px;
 text-align: center;
 font-size: 10px;
 font-weight: 400;
-
 }
